@@ -1,49 +1,41 @@
-/*  your css code here. If applicable */
-#table-1 {
-	border: 1px solid black;
-	border-spacing: 1px;
-}
-
-#table-1 td{
-	border:1px solid black;
-	padding: 1px;
-}
-
-.right {
-	text-align: right;
-}
-
-#table-2 {
-  border: 1px solid black;
+/* General table styling */
+table {
   border-collapse: collapse;
-  width: 100%;
+  border: 1px solid black;
+  border-spacing: 1px;
 }
 
-#table-2 td {
+td {
   border: 1px solid black;
   padding: 1px;
+}
+
+/* Specific table classes */
+.middle {
+  margin: auto;
+}
+
+/* Table 1 alignment */
+.right {
+  text-align: right;
+}
+
+.center td {
   text-align: center;
 }
 
-#table-3 {
-  border-collapse: collapse;
-  width: 100%;
-  margin-top: 30px;
-}
-
-#table-3 td {
-  border: 1px solid black;
-}
-
-.top-row {
+/* Table 3 colored rows */
+.green {
   background-color: green;
-
+  height: 30px;
 }
 
-.bottom-row {
+.blue {
   background-color: blue;
+  height: 30px;
 }
 
-
-
-
+#t-image img {
+  display: block;
+  margin: auto;
+}
