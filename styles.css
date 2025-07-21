@@ -1,1 +1,49 @@
 /*  your css code here. If applicable */
+#table-1 {
+	border: 1px solid black;
+	border-spacing: 1px;
+}
+
+#table-1 td{
+	border:1px solid black;
+	padding: 1px;
+}
+
+.right {
+	text-align: right;
+}
+
+#table-2 {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#table-2 td {
+  border: 1px solid black;
+  padding: 1px;
+  text-align: center;
+}
+
+#table-3 {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 30px;
+}
+
+#table-3 td {
+  border: 1px solid black;
+}
+
+.top-row {
+  background-color: green;
+
+}
+
+.bottom-row {
+  background-color: blue;
+}
+
+
+
+
